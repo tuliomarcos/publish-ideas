@@ -1,0 +1,18 @@
+{
+  "name": "publish-ideias",
+  "version": "1.0.0",
+  "description": "Este é um projeto onde o usuário pode publicar suas ideias para que deixe salvo e possa visualizar em outro momento.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tulio Marcos",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {}
+}
