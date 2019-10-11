@@ -3,7 +3,24 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
+    link(rel="stylesheet", href="./sass/style.css")
+    //- TODO = tirar esse favicon e esse title
+    title upMap
+    link(rel="shortcut icon" href="https://upmap.qa.uplexis.com.br/favicon.ico")
   
   body
-    h1.title Lero bão :)
+    header
+      img.icon(src="../assets/twitter-icon.png")
+      ul
+        li
+          a(class="active", href="#home") Página Inicial
+        li
+          a(class="", href="#publish-review") Publicações recentes
+        li
+          a(class="", href="#settings") Configurações
+    main
+      .container
+        .publish-area
+          img.profile(src="../assets/me.jpeg")
+          textarea(name="", placeholder="Escreva algo aqui :)")
+          button#public Publicar
